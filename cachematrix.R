@@ -1,6 +1,6 @@
-# This function crates a matrix then calculates the inverse of it
-## functions do
+# Thes functions crate a matrix then calculates the inverse of it.
 
+## The makeCacheMatrix creates a matrix and contains a list of functions to set and get the matrix and its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function first checks if the x matrix has been inverted and cached. 
+## The cacheSolve function first checks if the x matrix has been inverted and cached. 
 ## If yes, it gives a message. 
 ## If not, it calculates the inverse and updates the cached data.
 
